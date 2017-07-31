@@ -1,6 +1,6 @@
-# Scientocracy.network
+# The Citadel Forum at www.scientocracy.network
 
-Forked from Vulcan (formerly Telescope)
+Forked from Vulcan (formerly Telescopeapp)
 
 
 ## To deploy
