@@ -5,9 +5,9 @@ Forked from Vulcan (formerly Telescope)
 
 ## To deploy
 
-`cd .deploy
-mup setup
-mup deploy`
+`cd .deploy`
+`mup setup`
+`mup deploy`
 
 
 ## Vulcan readme:
