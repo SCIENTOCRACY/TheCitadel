@@ -11,17 +11,23 @@ import { Components, getRawComponent, replaceComponent }from 'meteor/vulcan:core
 import React from 'react';
 import { FormattedMessage /*, intlShape */ } from 'meteor/vulcan:i18n';
 
+import AdSense from 'react-adsense';
+
 class CustomNewsletter extends getRawComponent('Newsletter') {
 
   render() {
     // console.log(this.renderButton); <-- exists
 
-    return this.state.showBanner
-      ? (
-        <div className="newsletter">
-          <img src="/packages/example-customization/content/images/banner.png" />
+
+
+    return (
+
+        <div className="google-adsense">
+            <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <AdSense.Google client='ca-pub-7292810486004926'
+                        slot='7806394673' />
         </div>
-      ) : null;
+      );
   }
 
 }

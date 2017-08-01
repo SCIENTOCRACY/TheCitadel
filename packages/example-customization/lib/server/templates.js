@@ -1,4 +1,4 @@
-/* 
+/*
 Register email templates.
 */
 
