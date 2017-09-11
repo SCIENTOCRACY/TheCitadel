@@ -1,5 +1,5 @@
 /*
-Let's import all our files here. 
+Let's import all our files here.
 */
 
 // general business logic of this customization
@@ -11,7 +11,6 @@ import "./groups.js";
 import "./fragments.js";
 
 // custom components
-import "./components/CustomLogo.jsx";
 import "./components/CustomNewsletter.jsx";
 import "./components/CustomPostsItem.jsx";
 import "./components/MyCustomPage.jsx";

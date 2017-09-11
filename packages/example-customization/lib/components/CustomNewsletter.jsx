@@ -24,8 +24,7 @@ class CustomNewsletter extends getRawComponent('Newsletter') {
 
         <div className="google-adsense">
             <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <AdSense.Google client='ca-pub-7292810486004926'
-                        slot='7806394673' />
+            <AdSense.Google client='ca-pub-6931460474152339' />
         </div>
       );
   }

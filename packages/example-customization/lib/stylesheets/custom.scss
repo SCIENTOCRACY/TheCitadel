@@ -1,18 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Nova+Slim|Oxygen');
+
+body{
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1{font-family: 'Audiowide', cursive;}
+h2{font-family: 'Nova Slim', cursive;}
+p{font-family: 'Oxygen', sans-serif;}
+
+a {
+  color: #6431FB;
+}
+a:focus, a:hover {
+    color: #6431FB;
+  }
+
 .logo-hello {
   display: flex;
   justify-content: center;
   color: #333;
 }
 
-.post-red{
-  background-color: #FFD3D2;
+.header-wrapper {
+  background: #000;
+  color: #fff;
 }
-.post-blue{
-  background-color: #D2F5FF;
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-.post-yellow{
-  background-color: #FBFFD2;
+
+.logo .logo-image img {
+    max-width: 250px;
 }
-.post-green{
-  background-color: #D2FFD2;
+
+.btn-primary, .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle, .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #6431FB;
+    border: 2px solid #6431FB;
+    color: white;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    padding: 0px 33px;
+    border-radius: 25px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-primary:hover {
+    color: #6431FB;
+    background-color: #fff;
+    border: 2px solid #6431FB;
 }

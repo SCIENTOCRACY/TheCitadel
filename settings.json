@@ -1,11 +1,11 @@
 {
   "public": {
     "title": "The Citadel",
-    "tagline":"Scientocracy",
+    "tagline":"",
 
-    "logoUrl": "http://placekitten.com/250/80",
+    "logoUrl": "http://localhost/scientocracy.io/scientocracy.io%20site/ScientocracyLogo-horizontal.png",
     "logoHeight": "80",
-    "logoWidth": "250",
+    "logoWidth": "300",
     "faviconUrl": "/favicon.ico",
 
     "requirePostsApproval":false,

@@ -2,6 +2,20 @@
 
 Forked from Vulcan (formerly Telescopeapp)
 
+## To run locally
+
+`npm install`
+`npm start`
+
+And open http://localhost:3000/ in your browser.
+
+Note that you can also start the app with:
+
+default setting file: sample_settings.json
+`meteor --settings sample_settings.json`
+
+'npm start' will create a copy of the sample settings, 'settings.json', and run `meteor` with this file for you.
+
 
 ## To deploy
 
