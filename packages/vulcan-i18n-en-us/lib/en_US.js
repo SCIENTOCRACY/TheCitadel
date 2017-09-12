@@ -40,7 +40,7 @@ addStrings('en', {
   "forms.select_option": "-- select option --",
   "forms.delete": "Delete",
   "forms.delete_confirm": "Delete document?",
-  
+
   "posts.new_post": "New Post",
   "posts.edit": "Edit",
   "posts.edit_success": "Post “{title}” edited.",
@@ -193,7 +193,7 @@ addStrings('en', {
 
   "app.loading": "Loading…",
   "app.404": "Sorry, we couldn't find what you were looking for.",
-  "app.powered_by": "Built with VulcanJS",
+  "app.powered_by": "Copyright Scientocracy 2017",
   "app.or": "Or",
   "app.noPermission": "Sorry, you do not have the permission to do this at this time.",
   "app.operation_not_allowed": 'Sorry, you don\'t have the rights to perform the operation "{value}"',
@@ -201,7 +201,7 @@ addStrings('en', {
   "app.disallowed_property_detected": "Disallowed property detected: {value}",
   "app.something_bad_happened": "Something bad happened...",
   "app.embedly_not_authorized": "Invalid Embedly API key provided in the settings file. To find your key, log into https://app.embed.ly -> API",
-  
+
   "newsletter": "Newsletter",
   "newsletter.subscribe": "Subscribe",
   "newsletter.unsubscribe": "Unsubscribe",

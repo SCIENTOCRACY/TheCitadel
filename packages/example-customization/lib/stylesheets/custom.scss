@@ -37,30 +37,94 @@ a:focus, a:hover {
 }
 
 .btn-primary, .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle, .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #6431FB;
-    border: 2px solid #6431FB;
-    color: white;
-    cursor: pointer;
-    font-family: Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    margin: 0;
-    height: 50px;
-    padding: 0px 33px;
-    border-radius: 25px;
-    max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #6431FB;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 38px;
+  text-align: center;
+  margin: 0;
+  height: 38px;
+  padding: 0px 25px;
+  border-radius: 25px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .btn-primary:hover {
     color: #6431FB;
     background-color: #fff;
-    border: 2px solid #6431FB;
+    border: 0px;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover, .btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #6431FB;
+    border-color: #6431FB;
+}
+
+.posts-list-content {
+  background-color: #f6f6f6;
+}
+
+.form-control:focus {
+  border-color: #6431FB;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #000;
+    border: 0px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #6431FB;
+    border: 0px;
+}
+
+.btn-secondary.active.focus, .btn-secondary.active:focus, .btn-secondary.active:hover, .btn-secondary:active.focus, .btn-secondary:active:focus, .btn-secondary:active:hover, .open>.btn-secondary.dropdown-toggle.focus, .open>.btn-secondary.dropdown-toggle:focus, .open>.btn-secondary.dropdown-toggle:hover, .btn-secondary.active, .btn-secondary:active, .open>.btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #6431FB;
+  border: 0px;
+  line-height: 1.42857143;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.upvote-button {
+    border: 0px;
+    background-color: #000;
+    border-radius: 0px;
+}
+.upvote-button .vote-count {
+    color: #fff;
+}
+.upvote-button .icon {
+    color: #fff;
+}
+.upvote-button:hover {
+    background: #6431FB;
+    border-color: #6431FB;
+    color: #fff !important;
+}
+
+button.posts-new-button.btn.btn-primary {
+    border-radius: 25px;
 }
